@@ -1,6 +1,19 @@
 # 一、时钟树
 
+| 时钟源名称     | 频率      | 材料      | 用途       |
+| -------------- | --------- | --------- | ---------- |
+| 高速外部振荡器 | 4-48MHz() | 晶体/陶瓷 | SYSCLK/RTC |
+| 低速外部振荡器 | 32.768KHz | 晶体/陶瓷 | RTC        |
+| 高速内部振荡器 | 16MHz     | RC        | SYSCLK     |
+| 低速内部振荡器 | 32KHz     | RC        | RTC/IWDG   |
 
+![image-20240301153029963](Pic\image-20240301153029963.png)
+
+RCC：复位与时钟控制（reset clock control）
+
+![时钟树](Pic\snipaste20240301_153849.jpg)
+
+![clockTree](Pic\clockTree.png)
 
 # 二、 GPIO 寄存器（参考手册9.4）
 
