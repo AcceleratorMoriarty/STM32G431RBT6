@@ -65,7 +65,7 @@ uint8_t rx;
 uint8_t str1[5]={0x11,0x22,0x33,0x44,0x55};
 uint8_t str2[5]={0};
 
-uint8_t number = 8;
+uint8_t number = 7;
 uint8_t number_new;
 
 /* USER CODE END PV */
